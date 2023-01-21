@@ -1,132 +1,106 @@
 body {
-  background-color: blueviolet;
+    background-color: blueviolet;
 }
 
 header {
-  background-color: aquamarine;
-  color: darkblue;
-  font-family: 'Lato', sans-serif;
+    background-color: aquamarine;
+    color: darkblue;
+    font-family: 'Lato', sans-serif;
 }
 
 footer {
-  background-color: aquamarine;
-  color: darkblue;
-  font-family: 'Lato', sans-serif;
-  height: 10em;
-  border: 2em solid white;
-  text-align: center;
+    background-color: aquamarine;
+    color: darkblue;
+    font-family: 'Lato', sans-serif;
+    height: 10em;
+    border: 2em solid white;
+    text-align: center;
 
 }
+
 
 
 
 .hero {
-  height: 100vh;
-
-}
-
-.hero-back {
-  background-size: cover;
-  background-image: url("https://images.unsplash.com/photo-1667326509704-9900688a39b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    height: 100vh;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1667326509704-9900688a39b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
 }
 
 .form-card {
 
-  background-color: rgba(127, 255, 212, 0.362);
-  box-shadow: 5px 5px 10px;
+    background-color: rgba(127, 255, 212, 0.362);
+    box-shadow: 5px 5px 10px;
 }
 
 .tcb {
-  color: rgb(0, 28, 210);
+    color: rgb(0, 28, 210);
 }
 
 .blft {
-  border-left: .7vw solid aquamarine;
+    border-left: .7vw solid aquamarine;
 }
 
 .scard {
-  background-color: saddlebrown;
+    background-color: saddlebrown;
+    box-shadow: 5px 5px 10px
 }
 
 .smcard {
-  width: 20vw;
+    width: 20vw;
 }
 
 .tg {
-  color: rgb(36, 183, 36);
+    color: rgb(36, 183, 36);
 }
 
 .bar {
-  background-color: crimson;
+    background-color: crimson;
 }
 
 .imgfin {
-  height: 40vh;
-  width: 20vw;
-  object-fit: cover;
+    height: 40vh;
+    width: 20vw;
+    background-size: cover;
 }
 
 .tcse {
-  justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 .transy {
-  transform: translateY(8vh);
+    transform: translateY(8vh);
 }
 
 .tac {
-  text-align: center;
+    text-align: center;
 }
 
-
-
-
-
-
-
-
-
-/* SECTION vw selection */
-
-.vw10 {
-  width: 10vw;
+.md-begone {
+    color: black;
 }
 
-.vw20 {
-  width: 12vw;
+.barpad {
+    padding: 1em;
 }
 
-.vw30 {
-  width: 25vw;
+@media(max-width: 768px) {
+
+    .transy {
+        transform: translateY(0vh);
+    }
+
+    .benone {
+        display: block !important;
+        display: none !important;
+    }
+
+    .imgfin {
+        /* height: 40vh; */
+        width: 90vw;
+        background-size: cover;
+        padding-right: 10px;
+    }
+
+
 }
-
-.vw40 {
-  width: 30vw;
-}
-
-.vw50 {
-  width: 35vw;
-}
-
-.vw60 {
-  width: 36vw;
-}
-
-.vw70 {
-  width: 38vw;
-}
-
-.vw80 {
-  width: 30vw;
-}
-
-.vw90 {
-  width: 45vw;
-}
-
-.vw100 {
-  width: 50vw;
-}
-
-
-@media screen and (max-width: 768px) {}
